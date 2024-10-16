@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*cabeçalho*/
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.top {
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    background-color: #f31515;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/*caixas de input nmber*/
+input[type=number] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 1.1em;
+    margin: 0px 0px 10px 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* radio button*/
+.Radio {
+    font-size: 1.5em;
+    margin: 25px 0px 25px 0px;
+    width: 100%;
+}
+
+#f{
+    margin-left: 25px;
+}
+
+/* lista (combo box) */
+#atividade {
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+/* botões */
+input[type=button], input[type=reset] {
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000000;
+    color: aliceblue;
+    font-size: 1.15em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+input[type=reset] {
+    margin-left: 20px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/*linhas */
+hr {
+    margin: 10px 0px;
+}
+
+/*mostrador coração pulsando */
+/*mostrador*/
+
+
+/*coracao pulsando*/
+.coracao{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: yellow;
+    transform: rotate(-135deg);
+    z-index:  -1;
+    left: 70%;
+    animation: pulsar 0.7s infinite alternate; /*executar a função interna do css*/
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
+
+/*função CSS para ampliar e reduzir o coração */
+@keyframes pulsar{
+    0%{
+        transform: scale(0.95) rotate (-135deg);
+    }
+
+    100%{
+        transform: scale(1.15) rotate(-135deg);
+    }
+}
+
+/*calories e agua */
+#calorias, #agua{
+    font-size: 1.3em;
+
+}
+
+#calorias {
+    color:#f31515;
+}
+
+#agua{
+    color: #0d96cc;
+}
+
+h2 #freq {
+     right: 30%
+}
+
+#curso {
+    padding: 10px;
+    margin: 25px 0px 25px 10px;
+    /* border-radius: 20px; */
+    height: 50px;
+}
+
+#b, #n{
+    margin: 10px;
+}
+
+#status {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 5px;
+}
+
+#saldo {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    display: -webkit-inline-box;
+    margin: 5px -50px 0px -15px;
+    color: #005719;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    margin-left: -15px;
+}
+
+#grafico{
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 26px;
+}
+
+.but {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.bts{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0px -15px 0px -15px;
+}
+
+.result{
+    margin-left: 30px;
+}
+
+.resimg{
+    margin: auto;
+    margin-top: 20px;
+}
