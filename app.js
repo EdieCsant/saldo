@@ -84,6 +84,5 @@ function calcular() {
 function limpar() {
     document.getElementById("saldo").innerHTML = "💰";
     document.getElementById("status").innerHTML = "Status";
-    document.getElementById("desc").innerHTML = "mensalidade no Senac";
     document.getElementById("grafico").src = "img/reset.png";
 }
